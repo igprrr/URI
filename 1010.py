@@ -1,0 +1,10 @@
+linha = input().split()
+cp1 = int(linha[0])
+np1 = int(linha[1])
+vp1 = float(linha[2])
+linha2 = input().split()
+cp2 = int(linha2[0])
+np2 = int(linha2[1])
+vp2 = float(linha2[2])
+vt = np1 * vp1 + np2 * vp2
+print('VALOR A PAGAR: R$ %.2f'%vt)
